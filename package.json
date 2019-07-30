@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "I am creating a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design pattern; using Node and MySQL to query and route data in my app, and Handlebars to generate my HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huntercnix/burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huntercnix/burger/issues"
+  },
+  "homepage": "https://github.com/huntercnix/burger#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "node-env-run": "^3.0.2"
+  }
+}
